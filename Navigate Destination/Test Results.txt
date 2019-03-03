@@ -1,0 +1,4 @@
+"C:\Users\i own\PycharmProjects\untitled\venv\Scripts\python.exe" "C:/Users/i own/automation/Navigate Destination from Menu.py"
+Test Passed Successfully
+
+Process finished with exit code 0

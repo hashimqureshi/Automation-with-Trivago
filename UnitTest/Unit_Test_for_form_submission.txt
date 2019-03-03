@@ -1,0 +1,26 @@
+from selenium import webdriver
+import time
+import unittest
+
+class formSubmitTest(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        cls.browser = webdriver.Firefox()
+        cls.browser.implicitly_wait(10)
+        cls.browser.maximize_window()
+    def submitForm(self):
+        self.browser.get('https://magazine.trivago.com/contact/')
+        self.message = browser.find_element_by_xpath(
+            '/html/body/div[1]/div[3]/div/div/div[1]/div[2]/div/textarea').send_keys('testing')
+        self.name = browser.find_element_by_xpath('//*[@id="app"]/div[3]/div/div/div[1]/div[3]/div[1]/input').send_keys(
+            'tester')
+        self.email = browser.find_element_by_xpath('//*[@id="contact-email"]').send_keys('tester@tester.com')
+        self.acknowlegment = browser.find_element_by_xpath('//*[@id="confirm"]').click()
+        self.submit = browser.find_element_by_xpath('//*[@id="app"]/div[3]/div/div/div[1]/button/span').click()
+        time.sleep(2)
+    @classmethod
+    def tearDown(cls):
+        cls.browser.close()
+        cls.browser.quit()
+        print("Test Completed Successfully")

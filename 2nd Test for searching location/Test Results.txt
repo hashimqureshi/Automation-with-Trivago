@@ -1,0 +1,4 @@
+"C:\Users\i own\PycharmProjects\untitled\venv\Scripts\python.exe" "C:/Users/i own/automation/Second Automation Test for Searchin a location.py"
+Test Passed Successfully
+
+Process finished with exit code 0
