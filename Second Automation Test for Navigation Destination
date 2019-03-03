@@ -1,0 +1,14 @@
+from selenium import webdriver
+import time
+
+browser = webdriver.Firefox()
+browser.implicitly_wait(10)
+browser.maximize_window()
+
+browser.get('https://magazine.trivago.com')
+menu = browser.find_element_by_xpath('//*[@id="header"]/div/div/div[1]').click()
+destination = browser.find_element_by_xpath('//*[@id="menu"]/div/div/div[1]/div[2]/div/div[1]/div[4]/a/div/div[2]').click()
+time.sleep(5)
+browser.close()
+browser.quit()
+print('Test Passed Successfully')
