@@ -7,10 +7,10 @@
 5. Create 2 different automated test cases for the actions you think are the most important to automate 
  
 ## Please note the following information: 
-a. Feel free to use any automation framework 
-b. Make sure to generate and attach results for every test 
-c. Please push your project to a Git repository and share it with us 
-d. Explain in detail what made you choose these 2 test cases from point 5 above 
-e. Please list the limitations for your tests. 
+1. Feel free to use any automation framework 
+2. Make sure to generate and attach results for every test 
+3. Please push your project to a Git repository and share it with us 
+4. Explain in detail what made you choose these 2 test cases from point 5 above 
+5. Please list the limitations for your tests. 
  
  
